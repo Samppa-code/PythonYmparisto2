@@ -4,3 +4,12 @@ def bmi(paino,pituus):
 
 #Testataan toiminta
 oma_bmi = bmi(73,1.71)
+
+print ("Hoh-hoijaa taas on lihottu , painoindeksi on ", oma_bmi)
+
+try:
+    print(x)
+except:
+    print ("Something went wrong")
+finally:
+    print("")
